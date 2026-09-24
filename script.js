@@ -1,0 +1,1 @@
+function menu(){document.getElementById('nav').classList.toggle('open')}document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>document.getElementById('nav').classList.remove('open'));
